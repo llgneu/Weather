@@ -28,7 +28,7 @@ class WeatherActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val decorView = window.decorView
-        
+
         setContentView(R.layout.activity_weather)
 
         if (viewModel.locationLng.isEmpty()){
